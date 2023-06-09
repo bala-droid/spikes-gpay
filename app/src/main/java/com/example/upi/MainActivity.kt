@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(choose, Payment)
         }
         else{
-            Toast.makeText(this, "App not found", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Application not found", Toast.LENGTH_LONG).show()
         }
 
     }
